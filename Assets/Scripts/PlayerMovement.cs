@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void FixedUpdate()
+    public void FixedUpdate() //Fixed update occurs every time the physics engine updates
     {
         change = Vector3.zero; //Every frame the amount player has changed will reset.
         //.GetAxisRaw does not slowly build up speed. Use .GetAxis for this
