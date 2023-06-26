@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
         } //the changes to the above four lines are required for Unity2019.3+
         UpdateAnimoationAndMove();
        
-        Debug.Log(change); //Displays debugger for change
+        //Debug.Log(change); //Displays debugger for change
     }
 
     void UpdateAnimoationAndMove()
